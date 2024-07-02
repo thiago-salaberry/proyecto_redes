@@ -1,0 +1,16 @@
+header{
+    text-align: center;
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:-70px;
+    padding-top:30px;
+    padding-bottom: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-image: url("https://www.minecraft.net/content/dam/games/minecraft/key-art/PC_Bundle_Deluxe_Mobile.jpg?imwidth=321");
+}
+h1{
+    color: white;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
