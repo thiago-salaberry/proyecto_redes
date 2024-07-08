@@ -7,7 +7,7 @@ header{
     padding-bottom: 30px;
     padding-left: 200px;
     padding-right: 200px;
-    border: 20px solid white;
+    border: 20px solid skyblue;
     margin-left: 311px;
     margin-right: 311px;
     background-image: url("https://www.minecraft.net/content/dam/games/minecraft/key-art/PC_Bundle_Deluxe_Mobile.jpg?imwidth=321");
@@ -19,9 +19,18 @@ h1{
 }
 html{
     background: no-repeat;
-    background-image: url(https://img.freepik.com/fotos-premium/paisaje-inspirado-minecraft-terreno-bloqueado-extiende-cielo-pixelado_1057260-1879.jpg);
+    background-image: url(https://wallpapers-clan.com/wp-content/uploads/2024/05/minecraft-world-scenery-desktop-wallpaper-preview.jpg);
     background-repeat: no-repeat;
     background-repeat: repeat-x;
     background-repeat: repeat-y;
     background-size: cover;
+}
+main{
+    background-color:navajowhite;
+    margin: 30px 311px 30px 311px;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.des{
+    margin: 30px 30px 30px 30px;
 }
