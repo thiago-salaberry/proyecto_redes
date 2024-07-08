@@ -3,14 +3,25 @@ header{
     background-repeat:no-repeat;
     background-position-x:center;
     background-position-y:-70px;
-    padding-top:30px;
-    padding-bottom: 200px;
+    padding-top:270px;
+    padding-bottom: 30px;
     padding-left: 200px;
     padding-right: 200px;
+    border: 20px solid white;
+    margin-left: 311px;
+    margin-right: 311px;
     background-image: url("https://www.minecraft.net/content/dam/games/minecraft/key-art/PC_Bundle_Deluxe_Mobile.jpg?imwidth=321");
 }
 h1{
-    color: white;
-    font-size: 50px;
+    color: black;
+    font-size: 40px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+html{
+    background: no-repeat;
+    background-image: url(https://img.freepik.com/fotos-premium/paisaje-inspirado-minecraft-terreno-bloqueado-extiende-cielo-pixelado_1057260-1879.jpg);
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-size: cover;
 }
