@@ -36,8 +36,14 @@ main{
 }
 .cua{
     text-align: center;
-    border: 5px solid gainsboro;
     padding: 20px;
+    cursor: pointer;
+    transition: 1s;
+    object-fit: cover;
+}
+.cua:hover{
+    transform: scale(1.1);
+    transition: 1s;
 }
 .contenedor{
     border: 5px solid gainsboro;
