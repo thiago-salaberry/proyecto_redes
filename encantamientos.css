@@ -1,10 +1,11 @@
 html{
     background: no-repeat;
     background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/09/minecraft-2805227.jpg?tf=3840x);
-    background-repeat: no-repeat;
-    background-repeat: repeat-x;
-    background-repeat: repeat-y;
-    background-size: cover;
+   background-position: center center;
+   background-size: cover;
+   background-attachment: fixed;
+   width:auto;
+   height: auto;
 }
 header{
     text-align: center;
@@ -33,7 +34,4 @@ div{
 }
 h4{
     padding: 5px;
-}
-.cont{
-    
 }
