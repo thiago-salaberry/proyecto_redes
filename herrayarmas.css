@@ -1,0 +1,49 @@
+html{
+    background: no-repeat;
+    background-image: url(https://s2.dmcdn.net/v/TGmvb1XH_qTSzdv8P/x1080);
+   background-position: center center;
+   background-size: cover;
+   background-attachment: fixed;
+   width:auto;
+   height: auto;
+}
+
+main{
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: bisque;
+    padding: 20px;
+    margin-top: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+header{
+    margin-left: 500px;
+    margin-right: 500px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: bisque;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+img{
+    margin: 20px;
+}
+.espada{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 3px solid black;
+    margin: 30px;
+}
+.pri{
+    border: 3px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+.sec{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+h4{
+    text-align: left;
+}
