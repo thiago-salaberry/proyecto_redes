@@ -25,12 +25,9 @@ header{
     background-color: bisque;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
-img{
-    margin: 20px;
-}
 .espada{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     border: 3px solid black;
     margin: 30px;
 }
@@ -44,6 +41,9 @@ img{
     border: 1px solid black;
     text-align: center;
 }
-h4{
-    text-align: left;
+.cua{
+    margin: -10px;
+}
+.can{
+    margin: 20px;
 }
