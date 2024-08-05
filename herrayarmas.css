@@ -25,7 +25,7 @@ header{
     background-color: bisque;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
-.espada{
+.herra{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     border: 3px solid black;
@@ -46,4 +46,7 @@ header{
 }
 .can{
     margin: 20px;
+}
+li{
+    padding: 2px;
 }
