@@ -50,3 +50,10 @@ header{
 li{
     padding: 2px;
 }
+.rar{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 3px solid black;
+    margin: 20px;
+
+}
