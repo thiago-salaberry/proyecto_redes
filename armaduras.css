@@ -1,7 +1,12 @@
 section{
     display: flex;
-    width: 600px;
-    height: 430px;
+    width: 900px;
+    height: 500px;
+    background-color: wheat ;
+    margin: 20px 50px 20px 50px;
+    border: 20px solid rgb(207, 185, 143);
+    border-radius: 30px;
+    
 }
 section img{
     width: 0px;
@@ -12,7 +17,49 @@ section img{
 }
 section img:hover{
     cursor: pointer;
-    width: 300px;
+    width: 200px;
     opacity: 1;
     filter: contrast(120%);
+}
+header{
+    margin-left: 500px;
+    margin-right: 500px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: bisque;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border: 10px solid rgb(207, 185, 143);
+    border-radius: 20px;
+}
+html{
+    background-image: url("https://i.redd.it/all-armor-trims-displayed-v0-mgb67venb45b1.jpg?width=2732&format=pjpg&auto=webp&s=f7367e663911c9682601078eb07cc55ec5ba5b36");
+    background-repeat: no-repeat ;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width:auto;
+    height: auto;
+}
+
+main{
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: bisque;
+    padding: 20px;
+    margin-top: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border: 3px solid black;
+}
+p{
+    margin: 0px 40px 0px 40px;
+    text-align: justify;
+}
+.can{
+    margin: 20px 32px 20px 30px;
+}
+.pri{
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    text-align: center;
 }

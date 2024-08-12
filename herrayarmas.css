@@ -25,6 +25,7 @@ header{
     margin-top: 30px;
     background-color: bisque;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border: 3px solid black;
 }
 .herra{
     display: grid;
@@ -52,6 +53,10 @@ header{
 li{
     padding: 2px;
     text-align: left;
+}
+ul{
+    background-color:burlywood;
+    border: 10px solid wheat;
 }
 p{
     text-align: left;
