@@ -15,6 +15,7 @@ main{
     padding: 20px;
     margin-top: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border: 3px solid black;
 }
 header{
     margin-left: 500px;
@@ -32,9 +33,10 @@ header{
     margin: 30px;
 }
 .pri{
-    border: 3px solid black;
+    border-bottom: 3px solid black;
     margin: 10px;
     padding: 10px;
+    text-align: center;
 }
 .sec{
     padding: 10px;
@@ -49,6 +51,16 @@ header{
 }
 li{
     padding: 2px;
+    text-align: left;
+}
+p{
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+h3{
+    font-size: 30px;
+    text-decoration: underline;
 }
 .rar{
     display: grid;
