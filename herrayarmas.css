@@ -30,8 +30,8 @@ header{
 .herra{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    border: 3px solid black;
     margin: 30px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.7);
 }
 .pri{
     border-bottom: 3px solid black;
@@ -39,16 +39,29 @@ header{
     padding: 10px;
     text-align: center;
 }
+.fir{
+    border: 1px solid rgb(95, 95, 95);
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(212, 212, 212);
+}
 .sec{
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(95, 95, 95);
     text-align: center;
+    background-color: rgb(255, 255, 255);
 }
 .cua{
     margin: -10px;
 }
 .can{
     margin: 20px;
+    transition: 0.5s;
+}
+.can:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    scale: 1.2;
 }
 li{
     padding: 2px;
@@ -70,7 +83,6 @@ h3{
 .rar{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    border: 3px solid black;
     margin: 20px;
-
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.7);
 }
