@@ -133,6 +133,7 @@ strong{
     display: grid;
     margin: 3%;
     grid-template-columns: 2fr 1fr 1.7fr 1fr 2fr;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.7);
 }
 .car{
     margin: 2%;
