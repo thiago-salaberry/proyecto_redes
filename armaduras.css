@@ -137,3 +137,11 @@ strong{
 .car{
     margin: 2%;
 }
+.arm{
+    margin: 2%;
+    transition: 0.5s;
+}
+.arm:hover{
+    scale: 1.2;
+    transition: 0.5s;
+}
