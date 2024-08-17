@@ -1,0 +1,98 @@
+
+html{
+    background-image: url("https://minecraft-tutos.com/wp-content/uploads/2023/03/brewing-stand-minecraft-1.jpg");
+    background-repeat: no-repeat ;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width:auto;
+    height: auto;
+}
+header{
+    width: 500px;
+    margin-left: 35%;
+    text-align: center;
+    margin-top: 30px;
+    background-color: bisque;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border: 10px solid rgb(207, 185, 143);
+    border-radius: 20px;
+}
+main{
+    width:1050px;
+    background-color: bisque;
+    padding: 10px;
+    margin-left: 21%;
+    margin-top: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border: 3px solid black;
+}
+.text{
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+}
+.can{
+    margin-left: 20px;
+}
+.text div{
+    margin: 20px;
+}
+.agr{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: burlywood;
+}
+section{
+    border-bottom: 2px solid black;
+    padding: 20px;
+}
+h2{
+    text-decoration: underline;
+    font-size: 30px;
+}
+.alq{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 2.5fr;
+    width: 800px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.7);
+}
+.fir{
+    margin: 0px;
+    border: 1px solid rgb(95, 95, 95);
+    text-align: center;
+    background-color: rgb(212, 212, 212);
+}
+.sec{
+    border: 1px solid rgb(95, 95, 95);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.cua{
+    background-color: gray;
+    margin:10px;
+    border-left: 4px solid rgb(39, 39, 39); 
+    border-top: 4px solid rgb(39, 39, 39) ;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+}
+.ing{
+    display: grid;
+    grid-template-columns: 1.3fr 0.5fr 2fr;
+    width: 500px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.7);
+}
+.ing2{
+    display: grid;
+    grid-template-columns: 1.3fr 0.5fr 2fr;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.7);
+}
+.englobador{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+strong{
+    text-decoration: underline;
+}

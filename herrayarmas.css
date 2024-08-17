@@ -9,8 +9,8 @@ html{
 }
 
 main{
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 18%;
+    width: 1100px;
     background-color: bisque;
     padding: 20px;
     margin-top: 30px;
@@ -18,8 +18,8 @@ main{
     border: 3px solid black;
 }
 header{
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 37%;
+    width: 400px;
     text-align: center;
     padding: 20px;
     margin-top: 30px;

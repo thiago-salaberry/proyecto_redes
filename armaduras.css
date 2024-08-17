@@ -22,8 +22,8 @@ section img:hover{
     filter: contrast(120%);
 }
 header{
-    margin-left: 500px;
-    margin-right: 500px;
+    width: 500px;
+    margin-left: 35%;
     text-align: center;
     padding: 20px;
     margin-top: 30px;
@@ -43,9 +43,9 @@ html{
 }
 
 main{
-    margin-left: 400px;
-    margin-right: 400px;
+    width:1050px;
     background-color: bisque;
+    margin-left: 21%;
     padding: 20px;
     margin-top: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;

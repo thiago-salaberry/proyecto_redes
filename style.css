@@ -26,6 +26,7 @@ html{
 }
 main{
     background-color:whitesmoke;
+    width: 1250px;
     margin: 30px 311px 30px 311px;
     padding: 10px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
