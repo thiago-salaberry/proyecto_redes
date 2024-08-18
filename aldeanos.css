@@ -1,0 +1,88 @@
+html{
+    background-image: url("https://e0.pxfuel.com/wallpapers/350/41/desktop-wallpaper-minecraft-village-and-pillage.jpg");
+    background-repeat: no-repeat ;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width:auto;
+    height: auto;
+}
+header{
+    width: 500px;
+    margin-left: 35%;
+    text-align: center;
+    margin-top: 30px;
+    background-color: bisque;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border: 10px solid rgb(207, 185, 143);
+    border-radius: 20px;
+}
+main{
+    width:1050px;
+    background-color: bisque;
+    padding: 30px;
+    margin-left: 21%;
+    margin-top: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border: 3px solid black;
+    text-align: center;
+}
+.principio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.principio div{
+    text-align: center;
+}
+p{
+    text-align: justify;
+
+}
+section{
+    background-color: rgb(252, 214, 168);
+    padding: 10px;
+    border-bottom: 4px solid black;
+}
+.niveles{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.7fr 2fr;
+    width: 550px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.7);
+}
+.niveles img{
+    margin: 10px;
+}
+.fir{
+    margin: 0px;
+    border: 1px solid rgb(95, 95, 95);
+    text-align: center;
+    background-color: rgb(212, 212, 212);
+}
+.sec{
+    border: 1px solid rgb(95, 95, 95);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+h2{
+    text-decoration: underline;
+    font-size: 30px;
+}
+h3{
+    text-align: left;
+    text-decoration: dashed;
+    text-decoration: underline;
+}
+.comercio{
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+}
+li{
+    margin-left: -30px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tradeos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
