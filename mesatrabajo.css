@@ -1,0 +1,79 @@
+html{
+    background: no-repeat;
+    background-image: url(https://i.pinimg.com/736x/b0/0b/ef/b00befda8381e35c8ef952a4ed413284.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width:auto;
+    height: auto;
+}
+main{
+    width:1050px;
+    background-color: bisque;
+    margin-left: 21%;
+    padding: 20px;
+    margin-top: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border: 3px solid black;
+}
+header{
+    width: 500px;
+    margin-left: 35%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: bisque;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border: 10px solid rgb(207, 185, 143);
+    border-radius: 20px;
+}
+p{
+    margin: 0px 40px 0px 40px;
+    text-align: justify;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.contenedor div{
+    padding: 10px;
+    text-align: center;
+}
+section{
+    border-bottom: 2px solid black;
+    padding: 20px;
+}
+.fun{
+    display: grid;
+    grid-template-columns: 1.3fr 0.5fr 2.5fr 1fr 1fr;
+    margin: 30px;
+    width: 700px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.7);
+}
+.fir{
+    margin: 0px;
+    border: 1px solid rgb(95, 95, 95);
+    text-align: center;
+    background-color: rgb(212, 212, 212);
+}
+.sec{
+    border: 1px solid rgb(95, 95, 95);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.cua{
+    background-color: gray;
+    margin:10px;
+    border-left: 4px solid rgb(39, 39, 39); 
+    border-top: 4px solid rgb(39, 39, 39) ;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+}
+img{
+    margin: 10px;
+    transition: 0.5s;
+}
+img:hover{
+    transition: 0.5s;
+    scale: 1.1;
+}
