@@ -40,14 +40,14 @@ h2{
     font-size: 30px;
 }
 section{
-    margin: 10px;
+    padding: 5px;
     border-bottom: 3px solid black;
 }
 .card{
     position: relative;
     width: 450px;
     height: 350px;
-    margin: 30px;
+    margin: 20px;
 }
 .card .face {
     position: absolute;
