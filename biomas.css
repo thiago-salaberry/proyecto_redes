@@ -1,5 +1,5 @@
 html{
-    background-image: url("https://minecraft-tutos.com/wp-content/uploads/2023/03/brewing-stand-minecraft-1.jpg");
+    background-image: url("imagenes/fondo_mundo.png");
     background-repeat: no-repeat ;
     background-position: center center;
     background-size: cover;
@@ -47,7 +47,6 @@ section{
     position: relative;
     width: 450px;
     height: 350px;
-    margin: 20px;
 }
 .card .face {
     position: absolute;
@@ -81,7 +80,6 @@ section{
 .card .back{
     transform: rotateY(180deg);
     background-color: burlywood;
-    padding: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -109,4 +107,11 @@ section{
 }
 .card:hover .back{
     transform: rotateY(360deg);
+}
+.biomas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.biomas .card{
+    margin: 30px;
 }
