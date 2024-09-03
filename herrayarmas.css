@@ -52,7 +52,12 @@ header{
     background-color: rgb(255, 255, 255);
 }
 .cua{
-    margin: -10px;
+    margin-bottom: -10px;
+    background-color: gray;
+    border-left: 3px solid rgb(39, 39, 39); 
+    border-top: 3px solid rgb(39, 39, 39) ;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
 }
 .can{
     margin: 20px;
