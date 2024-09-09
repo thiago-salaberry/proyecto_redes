@@ -82,10 +82,18 @@ li{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.tradeos{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+.comercios {
+    border-collapse: collapse;
+    width: 80%;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.7);
 }
-th{
-    border: 2px solid black;
+.comercios th, .comercios td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+.comercios thead th {
+    background-color: rgb(212, 212, 212);
+    font-weight: bold;
+    vertical-align: middle;
 }
