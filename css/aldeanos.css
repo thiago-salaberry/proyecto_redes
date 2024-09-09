@@ -18,7 +18,7 @@ header{
     border-radius: 20px;
 }
 main{
-    width:1050px;
+    width:1070px;
     background-color: bisque;
     padding: 30px;
     margin-left: 21%;
@@ -40,7 +40,7 @@ p{
 }
 section{
     background-color: rgb(252, 214, 168);
-    padding: 10px;
+    padding: 20px;
     border-bottom: 4px solid black;
 }
 .niveles{
@@ -72,19 +72,18 @@ h3{
     text-decoration: dashed;
     text-decoration: underline;
 }
-.comercio{
-    display: grid;
-    grid-template-columns: 1.8fr 1fr;
-}
 li{
     margin-left: -30px;
     text-align: justify;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.comercio{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
 .comercios {
     border-collapse: collapse;
-    width: 80%;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.7);
 }
 .comercios th, .comercios td {
@@ -97,3 +96,4 @@ li{
     font-weight: bold;
     vertical-align: middle;
 }
+
