@@ -84,7 +84,9 @@ li{
 }
 .comercios {
     border-collapse: collapse;
+    width: 850px;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
 }
 .comercios th, .comercios td {
     border: 1px solid black;
@@ -96,4 +98,10 @@ li{
     font-weight: bold;
     vertical-align: middle;
 }
-
+.imagen-centrada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
