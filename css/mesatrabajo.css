@@ -6,11 +6,14 @@ html{
     background-attachment: fixed;
     width:auto;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
 }
 main{
     width:1050px;
     background-color: bisque;
-    margin-left: 21%;
     padding: 20px;
     margin-top: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
@@ -18,7 +21,6 @@ main{
 }
 header{
     width: 500px;
-    margin-left: 35%;
     text-align: center;
     padding: 20px;
     margin-top: 30px;

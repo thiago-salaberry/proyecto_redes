@@ -7,10 +7,13 @@ html{
     background-attachment: fixed;
     width:auto;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
 }
 header{
     width: 500px;
-    margin-left: 35%;
     text-align: center;
     margin-top: 30px;
     background-color: bisque;
@@ -22,7 +25,6 @@ main{
     width:1050px;
     background-color: bisque;
     padding: 10px;
-    margin-left: 21%;
     margin-top: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     border: 3px solid black;

@@ -7,8 +7,6 @@ header{
     padding-bottom: 30px;
     padding-left: 200px;
     padding-right: 200px;
-    margin-left: 311px;
-    margin-right: 311px;
     background-image: url("https://www.minecraft.net/content/dam/games/minecraft/key-art/PC_Bundle_Deluxe_Mobile.jpg?imwidth=321");
 }
 h1{
@@ -23,11 +21,15 @@ html{
     background-repeat: repeat-x;
     background-repeat: repeat-y;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
 }
 main{
     background-color:whitesmoke;
+    margin-top: 40px;
     width: 1250px;
-    margin: 30px 311px 30px 311px;
     padding: 10px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }

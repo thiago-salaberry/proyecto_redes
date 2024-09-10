@@ -6,10 +6,13 @@ html{
     background-attachment: fixed;
     width:auto;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
 }
 header{
     width: 500px;
-    margin-left: 35%;
     text-align: center;
     margin-top: 30px;
     background-color: bisque;
@@ -21,7 +24,6 @@ main{
     width:1070px;
     background-color: bisque;
     padding: 30px;
-    margin-left: 21%;
     margin-top: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     border: 3px solid black;
@@ -87,6 +89,7 @@ li{
     width: 850px;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.7);
     margin-bottom: 20px;
+    margin-right: 10px;
 }
 .comercios th, .comercios td {
     border: 1px solid black;
@@ -104,4 +107,12 @@ li{
     justify-content: center;
     align-items: center;
     height: 100%; 
+    font-weight: bold;
+}
+.contenedor{
+    border-radius: 10px;
+    border: solid 10px rgb(182, 146, 100);
+    background-color:tan;
+    padding: 10px;
+    height: 460px;
 }
