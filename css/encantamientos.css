@@ -12,6 +12,9 @@ html{
     align-items:center;
 }
 header{
+    position: relative;
+    left: 50%;
+    transform: translate( -50%);
     text-align: center;
     background-color: rgb(214, 171, 130) ;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
