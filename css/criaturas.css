@@ -57,3 +57,55 @@ h3{
 p{
     text-align: justify;
 }
+
+.menu-container {
+    position: relative; /* Para posicionar el menú desplegable */
+}
+
+#menu-toggle {
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.dropdown-menu {
+    display: none; /* Inicialmente oculto */
+    position: absolute;
+    top: 100%; /* El menú aparecerá justo debajo del botón */
+    left: 0; /* Alinea el menú con el lado izquierdo del contenedor */
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    padding: 10px;
+    border: solid white 2px;
+    border-radius: 5px;
+    width: 200px; /* Ajusta el ancho del menú */
+    z-index: 1; /* Asegura que el menú aparezca por encima de otros elementos */
+}
+
+.menu-container:hover .dropdown-menu {
+    display: block; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.pasiv{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+}
+
+.pasiv .mob-container{
+    border-radius: 5px;
+    text-align: center;
+    background-color: gray;
+    margin: 10px;
+    p{
+        text-shadow: 0px 0px 10px white, 0px 0px 20px white, 0px 0px 30px white, 0px 0px 40px white;
+        text-align: center;
+    }
+}
+
