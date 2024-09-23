@@ -111,3 +111,25 @@ a{
     }
 }
 
+.netruales{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.7);
+    margin: 10px;
+    padding: 10px;
+}
+
+.netruales .mob-container{
+    border-radius: 5px;
+    text-align: center;
+    background-color: gray;
+    margin: 10px;
+    padding: 10px;
+    p{
+        text-shadow: 0px 0px 10px white, 0px 0px 20px white, 0px 0px 30px white, 0px 0px 40px white;
+        text-align: center;
+    }
+}
+
