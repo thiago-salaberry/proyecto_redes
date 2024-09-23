@@ -178,7 +178,7 @@ document.addEventListener("DOMContentLoaded", function() {
         imageElements.pezGlobo.src = imagenes.pezGlobo[indices.pezGlobo];
         imageElements.pollo.src = imagenes.pollo[indices.pollo];
         imageElements.rana.src = imagenes.rana[indices.rana];
-        imageElements.vaca.src = imagenes.vaca[indices.vaca];
+        imageElements.vaca.src = imagenes.vaca[indices.vaca];   
 
         // Actualiza los índices
         for (let key in indices) {
