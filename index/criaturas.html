@@ -52,7 +52,11 @@
             <div class="pasiv" id="ajolote">
                 <div class="mob-container">
                     <img id="imagen-ajolote" src="../imagenes/ajolote_rosa.png" alt="" width="200" height="200">
-                    <p id="texto-ajolote">Ajolote Rosa</p>
+                    <p id="texto-ajolote-rosa" onclick="cambiarImagenAjolote('ajolote_rosa')">Ajolote Rosa</p>
+                    <p id="texto-ajolote-amarillo" onclick="cambiarImagenAjolote('ajolote_amarillo')">Ajolote Amarillo</p>
+                    <p id="texto-ajolote-azul" onclick="cambiarImagenAjolote('ajolote_azul')">Ajolote Azul</p>
+                    <p id="texto-ajolote-celeste" onclick="cambiarImagenAjolote('ajolote_celeste')">Ajolote celeste</p>
+                    <p id="texto-ajolote-marron" onclick="cambiarImagenAjolote('ajolote_marron')">Ajolote Marrón</p>
                 </div>
                 <div class="informacion">
                     <h4>Ajolote</h4>
@@ -69,7 +73,8 @@
             <div class="pasiv" id="aldeano">
                 <div class="mob-container">
                     <img id="imagen-aldeano" src="../imagenes/aldeanos.png" alt="" width="120" height="200">
-                    <p id="texto-aldeano">Aldeano Adulto</p>
+                    <p id="texto-aldeano" onclick="cambiarImagenAldeano('aldeanos')">Aldeano Adulto</p>
+                    <p id="texto-aldeano-bebe" onclick="cambiarImagenAldeano('aldeano_bebe')">Aldeano Bebe</p>
                 </div>
                 <div class="informacion">
                     <h4>Aldeano</h4>
@@ -825,7 +830,6 @@
             </p>
         </section>
     </main>
-    <script src="../java/texto_cambio.js"></script> 
     <script src="../java/img_cambio.js"></script>
 </body>
 </html>
