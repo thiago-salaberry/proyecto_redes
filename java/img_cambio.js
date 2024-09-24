@@ -103,6 +103,21 @@ function cambiarImagenRana(nombre) {
     imagen.src = `../imagenes/${nombre}.png`;
 }
 
+function cambiarImagenAhogado(nombre) {
+    const imagen = document.getElementById('imagen-ahogado');
+    imagen.src = `../imagenes/${nombre}.png`;
+}
+
+function cambiarImagenVaca(nombre) {
+    const imagen = document.getElementById('imagen-vaca');
+    imagen.src = `../imagenes/${nombre}.png`;
+}
+
+function cambiarImagenVaca(nombre) {
+    const imagen = document.getElementById('imagen-vaca');
+    imagen.src = `../imagenes/${nombre}.png`;
+}
+
 function cambiarImagenVaca(nombre) {
     const imagen = document.getElementById('imagen-vaca');
     imagen.src = `../imagenes/${nombre}.png`;
