@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-3');
+
 html{
     background: no-repeat;
     background-image: url(../imagenes/fondo_criaturas.png);
@@ -100,7 +102,7 @@ a{
     padding: 10px;
 }
 
-.pasiv .mob-container{
+.mob-container{
     border-radius: 5px;
     text-align: center;
     background-color: gray;
@@ -122,18 +124,6 @@ a{
     padding: 10px;
 }
 
-.netruales .mob-container{
-    border-radius: 5px;
-    text-align: center;
-    background-color: gray;
-    margin: 10px;
-    padding: 10px;
-    p{
-        text-shadow: 0px 0px 10px white, 0px 0px 20px white, 0px 0px 30px white, 0px 0px 40px white;
-        text-align: center;
-    }
-}
-
 .hostiles{
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -144,17 +134,43 @@ a{
     padding: 10px;
 }
 
-.hostiles .mob-container{
-    border-radius: 5px;
-    text-align: center;
-    background-color: gray;
-    margin: 10px;
-    padding: 10px;
-    p{
-        text-shadow: 0px 0px 10px white, 0px 0px 20px white, 0px 0px 30px white, 0px 0px 40px white;
-        text-align: center;
-    }
+button{
+    font-family: 'Minecraft';
+    background-color: grey;
+    padding: 4px;
+    margin-right: 2.5px;
+    margin-bottom: 8px;
+    color: white;
+    border-bottom: 2px solid rgb(92, 92, 92)  ;
+    border-left: 2px solid lightgray  ;
+    border-top: 2px solid lightgray;
+    border-right: 2px solid rgb(92, 92, 92) ;
+    text-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 1px 2px black;
 }
-
-
-
+button:hover {
+    cursor: pointer;
+    background-color:rgb(180, 180, 255);
+    border-bottom: 2px solid rgb(160, 160, 255)  ;
+    border-left: 2px solid rgb(200, 200, 255)  ;
+    border-top: 2px solid rgb(200, 200, 255);
+    border-right: 2px solid rgb(160, 160, 255) ;
+    text-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 1px 2px rgb(150, 150, 255);
+}
+button:active {
+    background-color: rgb(200, 200, 255) ;
+    border-bottom: 2px solid rgb(140, 140, 255);
+    border-left: 2px solid rgb(160, 160, 255);
+    border-top: 2px solid rgb(160, 160, 255);
+    border-right: 2px solid rgb(140, 140, 255);
+    text-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 1px 2px rgb(130, 130, 255);
+}
+.button-container{
+    display: grid;
+    grid-template-columns: 0.1fr 2fr;
+}
+.button-container div{
+    margin-left: 5px;
+}

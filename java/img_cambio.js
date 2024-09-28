@@ -103,6 +103,10 @@ function cambiarImagenRana(nombre) {
     const imagen = document.getElementById('imagen-rana');
     imagen.src = `../imagenes/${nombre}.png`;
 }
+
+
+
+
 //mobs neutrales
 function cambiarImagenCabra(nombre) {
     const imagen = document.getElementById('imagen-cabra');
@@ -143,17 +147,23 @@ function cambiarImagenOsoPolar(nombre) {
     imagen.src = `../imagenes/${nombre}.png`;
 }
 
-function cambiarImagenPanda(nombre) {
+function cambiarImagenPanda(nombre, ancho, alto) {
     const imagen = document.getElementById('imagen-panda');
     imagen.src = `../imagenes/${nombre}.png`;
+    imagen.width = ancho;
+    imagen.height = alto
 }
 
-function cambiarImagenPiglin(nombre) {
+function cambiarImagenPiglin(nombre, ancho,alto) {
     const imagen = document.getElementById('imagen-piglin');
     if (nombre.endsWith('.gif')) {
         imagen.src = `../imagenes/${nombre}`;
+        imagen.width = ancho;
+        imagen.height = alto    
     } else {
         imagen.src = `../imagenes/${nombre}.png`;
+        imagen.width = ancho;
+        imagen.height = alto
     }
 }
 
@@ -166,6 +176,10 @@ function cambiarImagenZorro(nombre) {
     const imagen = document.getElementById('imagen-zorro');
     imagen.src = `../imagenes/${nombre}.png`;
 }
+
+
+
+
 //mobs hostiles
 function cambiarImagenAldeanoZombi(nombre) {
     const imagen = document.getElementById('imagen-aldeano-zombi');
@@ -200,12 +214,16 @@ function cambiarImagenCreeper(nombre) {
     }
 }
 
-function cambiarImagenCuboDeMagma(nombre) {
+function cambiarImagenCuboDeMagma(nombre,ancho,alto) {
     const imagen = document.getElementById('imagen-cubo-de-magma');
     if (nombre.endsWith('.gif')) {
         imagen.src = `../imagenes/${nombre}`;
+        imagen.width = ancho;
+        imagen.height = alto
     } else {
         imagen.src = `../imagenes/${nombre}.png`;
+        imagen.width = ancho;
+        imagen.height = alto
     }
 }
 
@@ -260,9 +278,11 @@ function cambiarImagenHoglin(nombre) {
     imagen.src = `../imagenes/${nombre}.png`;
 }
 
-function cambiarImagenInvocador(nombre) {
+function cambiarImagenInvocador(nombre,ancho,alto) {
     const imagen = document.getElementById('imagen-invocador');
     imagen.src = `../imagenes/${nombre}.png`;
+    imagen.width = ancho;
+    imagen.height = alto;
 }
 
 function cambiarImagenPiglinBruto(nombre) {
@@ -285,9 +305,11 @@ function cambiarImagenVex(nombre) {
     imagen.src = `../imagenes/${nombre}.gif`;
 }
 
-function cambiarImagenVindicador(nombre) {
+function cambiarImagenVindicador(nombre,ancho,alto) {
     const imagen = document.getElementById('imagen-vindicador');
     imagen.src = `../imagenes/${nombre}.png`;
+    imagen.width = ancho;
+    imagen.height = alto;
 }
 
 function cambiarImagenZoglin(nombre) {
