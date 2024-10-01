@@ -68,3 +68,16 @@ a{
     text-decoration: none;
     color: black;
 }
+.trofeo{
+    background-color: grey;
+    padding: 4px;
+    margin-right: 2.5px;
+    margin-bottom: 8px;
+    color: white;
+    border-bottom: 2px solid rgb(92, 92, 92)  ;
+    border-left: 2px solid lightgray  ;
+    border-top: 2px solid lightgray;
+    border-right: 2px solid rgb(92, 92, 92) ;
+    text-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 1px 2px black;
+}
