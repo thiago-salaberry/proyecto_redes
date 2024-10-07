@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-3');
+
 body {
     font-family: Arial, sans-serif;
     background-image: url(../imagenes/fondo_tierra.png);
@@ -9,7 +11,6 @@ body {
     min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 
 .container {
@@ -32,6 +33,7 @@ h2 {
     color: #333;
     text-align: center;
     margin-bottom: 20px;
+    font-family: 'Minecraft';
 }
 
 .input-group {
@@ -42,6 +44,7 @@ label {
     display: block;
     margin-bottom: 5px;
     color: #666;
+    font-family: 'Minecraft';
 }
 
 input {
@@ -50,6 +53,7 @@ input {
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 14px;
+    font-family: 'Minecraft';
 }
 
 .btn {
@@ -63,6 +67,7 @@ input {
     font-size: 16px;
     transition: background-color 0.3s;
     transition: 0.3s;
+    font-family: 'Minecraft';
 }
 
 .btn:hover {

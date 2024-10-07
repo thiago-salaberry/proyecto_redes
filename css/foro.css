@@ -1,0 +1,122 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-3');
+
+html{
+    background: no-repeat;
+    background-image: url(../imagenes/foro.png);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width:auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    margin-top: 40px;
+    padding: 40px 60px 40px 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+h1{
+    font-family: 'Minecraft';
+    text-align: left;
+    text-decoration: underline;
+    font-size: 40px;
+    width: 800px;
+}
+h3{
+    font-size: 20px;
+}
+section{
+    background-color: rgb(204, 204, 204);
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 20px;
+}
+
+form div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Minecraft';
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Minecraft';
+}
+button{
+    font-family: 'Minecraft';
+    background-color: grey;
+    padding: 4px;
+    margin-right: 2.5px;
+    margin-bottom: 8px;
+    color: white;
+    border-bottom: 2px solid rgb(92, 92, 92)  ;
+    border-left: 2px solid lightgray  ;
+    border-top: 2px solid lightgray;
+    border-right: 2px solid rgb(92, 92, 92) ;
+    text-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 1px 2px black;
+}
+button:hover {
+    cursor: pointer;
+    background-color:rgb(180, 180, 255);
+    border-bottom: 2px solid rgb(160, 160, 255)  ;
+    border-left: 2px solid rgb(200, 200, 255)  ;
+    border-top: 2px solid rgb(200, 200, 255);
+    border-right: 2px solid rgb(160, 160, 255) ;
+    text-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 1px 2px rgb(150, 150, 255);
+}
+button:active {
+    background-color: rgb(200, 200, 255) ;
+    border-bottom: 2px solid rgb(140, 140, 255);
+    border-left: 2px solid rgb(160, 160, 255);
+    border-top: 2px solid rgb(160, 160, 255);
+    border-right: 2px solid rgb(140, 140, 255);
+    text-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 1px 2px rgb(130, 130, 255);
+}
+#imagen{
+    font-family: 'Minecraft';
+    background-color: grey;
+    padding: 4px;
+    margin-right: 2.5px;
+    margin-bottom: 8px;
+    color: white;
+    border-bottom: 2px solid rgb(92, 92, 92)  ;
+    border-left: 2px solid lightgray  ;
+    border-top: 2px solid lightgray;
+    border-right: 2px solid rgb(92, 92, 92) ;
+    text-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 1px 2px black;
+}
+#imagen:hover {
+    cursor: pointer;
+    background-color:rgb(180, 180, 255);
+    border-bottom: 2px solid rgb(160, 160, 255)  ;
+    border-left: 2px solid rgb(200, 200, 255)  ;
+    border-top: 2px solid rgb(200, 200, 255);
+    border-right: 2px solid rgb(160, 160, 255) ;
+    text-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 1px 2px rgb(150, 150, 255);
+}
+#imagen:active {
+    background-color: rgb(200, 200, 255) ;
+    border-bottom: 2px solid rgb(140, 140, 255);
+    border-left: 2px solid rgb(160, 160, 255);
+    border-top: 2px solid rgb(160, 160, 255);
+    border-right: 2px solid rgb(140, 140, 255);
+    text-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 1px 2px rgb(130, 130, 255);
+}
