@@ -18,7 +18,6 @@ main{
     width: 1000px;
     margin-top: 40px;
     padding: 40px 60px 40px 60px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 h1{
     font-family: 'Minecraft';
@@ -52,10 +51,8 @@ input {
     padding: 8px;
     border-radius: 4px;
     font-size: 14px;
-    font-family: 'Minecraft';
 }
 button{
-    font-family: 'Minecraft';
     background-color: grey;
     padding: 4px;
     margin-right: 2.5px;

@@ -1,7 +1,6 @@
 <?php
-
 require 'sistema.php'; // Asegúrate de que aquí se establezca la conexión $conn con mysqli
-
+session_start();
 if (!empty($_POST['email']) && !empty($_POST['contraseña'])) {
     $email = $_POST['email'];
     $contraseña = $_POST['contraseña'];

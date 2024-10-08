@@ -1,5 +1,11 @@
 <?php
-    require 'sistema.php';
+require 'sistema.php';
+session_start();
+
+if (!isset($_SESSION['ID_usuario'])) {
+    header("Location:../index/registro_inicio.html"); // Redirigir a la página de inicio de sesión y registro
+    exit();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,14 +19,14 @@
     <h1>Foro de la wiki</h1>
     <section>
         <h3>¿quiere insertar su logro?</h3>
-        <form action="publicar_fotos" method="post" enctyper="multipart/form-data">
+        <form action="subir_apartado.php" method="post" enctype="multipart/form-data">
             <div>
                 <label for="img">Selecione una imagen:</label>
-                <input id='imagen' type="file" name='foto'>
+                <input id="imagen" type="file" name="imagen" required>
             </div>
             <div>
                 <label for="descripcion">Descripcion:</label>
-                <input type="text" name='nombre' required>
+                <input id="descripcion" type="text" name="descripcion" required>
             </div>
             <div>
                 <button type="submit" class="btn">subir</button>

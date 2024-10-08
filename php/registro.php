@@ -1,7 +1,7 @@
 <?php
 
-require 'sistema.php';
-
+require_once 'sistema.php';
+session_start();
 // Obtener datos del formulario
 $nombre = $_POST['nombre'];
 $apellido = $_POST['apellido'];
@@ -26,10 +26,10 @@ if ($result->num_rows > 0) {
     $stmt_insert->bind_param("ssss", $nombre, $apellido, $email, $contraseña);
 
     if ($stmt_insert->execute()) {
-        // Obtener el ID del nuevo cliente
-        $nuevo_id = $conn->insert_id; // Obtener el ID del último registro insertado
-        $_SESSION['ID_usuario'] = $nuevo_id; // Guardar el ID en la sesión
-        header("Location: foro.php");
+        // Obtener el ID del nuevo usuario
+        $usuario['ID_usuario'] = $conn->insert_id; // Obtener el ID del último registro insertado
+        $_SESSION['ID_usuario'] = $usuario['ID_usuario'];
+        header('Location: foro.php');
     } else {
         echo "Error: ". $stmt_insert->error;
     }
