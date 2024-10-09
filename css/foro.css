@@ -18,6 +18,7 @@ main{
     width: 1000px;
     margin-top: 40px;
     padding: 40px 60px 40px 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 h1{
     font-family: 'Minecraft';
@@ -27,7 +28,12 @@ h1{
     width: 800px;
 }
 h3{
+    font-family: 'Minecraft';
     font-size: 20px;
+}
+h4{
+    font-family: 'Minecraft';
+    text-decoration: underline gray;
 }
 section{
     background-color: rgb(204, 204, 204);
@@ -85,6 +91,7 @@ button:active {
     box-shadow: 0px 0px 1px 2px rgb(130, 130, 255);
 }
 #imagen{
+    color:grey;;
     font-family: 'Minecraft';
     background-color: grey;
     padding: 4px;
@@ -116,4 +123,26 @@ button:active {
     border-right: 2px solid rgb(140, 140, 255);
     text-shadow: 0px 0px 1px black;
     box-shadow: 0px 0px 1px 2px rgb(130, 130, 255);
+}
+
+.comment{
+    text-align: center;
+    margin: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px black;
+    img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        object-fit: cover;
+        max-width: 500px;
+        height: 300px;
+        border: 5px solid black;
+    }
+    p{
+        text-align: justify;
+        color: rgb(66, 66, 66);
+    }
 }
