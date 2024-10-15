@@ -27,7 +27,8 @@ $result = $stmt_imagenes->get_result();
 </head>
 <main>
     <h1>Foro de la wiki</h1>
-    <button>volver al inicio</button>
+    <a href="../index.html"><button>volver al inicio</button></a>
+    
     <section>
         
         <h3>¿quiere insertar su logro?</h3>

@@ -1,6 +1,6 @@
 <?php
 require_once "sistema.php";
-session_start(); // Asegúrate de iniciar la sesión
+session_start();
 
 // Verificar si el usuario está logueado
 if (!isset($_SESSION["ID_usuario"])) {
@@ -49,7 +49,6 @@ if (isset($_FILES['imagen']) && $_FILES["imagen"]["error"] == 0) {
         } else {
             echo "Error al subir la imagen: " . $stmt_insert_imagen->error;
         }
-
         $stmt_insert_imagen->close();
     } else {
         echo "Error al mover la imagen.";
